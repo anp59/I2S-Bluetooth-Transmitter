@@ -1,0 +1,18 @@
+{
+    "name": "CustomLibBt",
+    "sentence": "Modified ESP Bluetooth library: The sample rate in A2DP source mode has been changed to 48000 Hz.",
+    "authors": {
+        "name": "anp59"
+    },
+    "version": "5.4.2",
+    "platforms": [
+        "espressif32"
+    ],
+    "frameworks": "*",
+    "build": {
+        "flags": [
+            "-L.",
+            "-lbt48"
+        ]
+    }
+}
